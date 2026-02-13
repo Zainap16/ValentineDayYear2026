@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Valetine-Cupcake';
+  src: url(./fonts/Valentine-Cupcake.ttf);
+}
+
+@font-face {
+  font-family:'Valetine-Heart' ;
+  src: url(./fonts/Valentine-Heart.ttf);
+}
+
+@font-face {
+  font-family: 'Hey-Love';
+  src: url(./fonts/HEYLOVE.ttf);
+}
+
+/* CSS RESET */
+
+* {
+  margin: 0; /* Removes default margins from all elements */
+  padding: 0; /* Removes default padding from all elements */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+html {
+  scroll-behavior: smooth; /* Optional: smooth scrolling */
+}
+
+
+body{
+background-color: var(--night-bordeaux);
+}
+
+:root {
+  --cherry-blossom: #F4AFB4;  
+  --night-bordeaux: #b64256; 
+
+  /* --primary-color2: #F8BBD0;  
+  --secondary-color2: #FFF8E7;  */
+
+
+}
+
+.contaier{
+  display: flex;
+}
+
+.item {
+  text-align: center;
+  
+} 
+
+.para-sect{
+  background-color: var(--cherry-blossom);
+  margin: 2% 5% 1% 2%;
+  border-radius: 8%;
+}
+
+.heading {
+
+   font-family: 'Hey-Love';
+font-size: 1.5rem;
+  padding: 3%;
+}
+
+h1 {
+  font-family: 'Valetine-Heart';
+  text-align: center;
+  color:var(--cherry-blossom);
+  font-size: 2.5rem;
+}
+
+input,label,.sub-heading ,.subtext-heading{
+
+  font-family: 'Valetine-Cupcake';
+  font-size: 0.7rem;
+  
+}
+  
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: rgb(39, 34, 34);
+  color: red;
+  font-weight: bolder;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+}
+
+button{
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine Year 2026</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>💌Valentine Application💌</h1>
+
+<div id="valentineWarning" class="popup">
+  <div class="popup-content">
+    <p>By entering this website, you agree to be my Valentine 💖</p>
+    <br>
+    <button onclick="closePopup()" class="AgreeBTN">I Agree 💕</button>
+  </div>
+</div>
+
+
+    <section class="container " >
+      <!-- Response Time Audit -->
+      <div class="para-sect item ">
+        <p class="heading">Response Time Audit</p>
+        <p class="sub-heading">How long do you take to reply?</p>
+
+        <input
+          type="radio"
+          id="howLongReply1"
+          name="howLongReply"
+          value="Immediately"
+        />
+        <label for="howLongReply1"> Immediately (Desperate but cute)</label
+        ><br />
+
+        <input
+          type="radio"
+          id="howLongReply2"
+          name="howLongReply"
+          value="Strategic"
+        />
+        <label for="howLongReply2"> 10–30 minutes (Strategic)</label><br />
+
+        <input
+          type="radio"
+          id="howLongReply3"
+          name="howLongReply"
+          value="EmotionallyUnstable"
+        />
+        <label for="howLongReply3">
+          2–3 business days (Emotionally unstable)</label
+        ><br />
+
+        <input
+          type="radio"
+          id="howLongReply4"
+          name="howLongReply"
+          value="headReply"
+        />
+        <label for="howLongReply4"> I reply in my head </label><br />
+
+         <!-- Hidden messages -->
+        <div id="deperate" style="display: none">
+          me to u: 💐 
+          <br>
+          P.S so my type
+        </div>
+
+        <div id="strategic" style="display: none">
+          i see, you have self control🥲
+        </div>
+
+        <div id="emtionallyUnstable" style="display: none">
+         Don't worry, i can fix you💝
+          
+        </div>
+
+        <div id="replyInHead" style="display: none">
+          I can read body language.💃
+        </div>
+      </div>
+
+     
+<br>
+      <!-- Food Loyalty Test -->
+      <div class="para-sect item ">
+        <p class="heading">Food Loyalty Test</p>
+        <p class="sub-heading">Would you share fries?</p>
+
+        <input
+          type="radio"
+          id="friedsChoice1"
+          name="friedsChoice"
+          value="yesShare"
+        />
+        <label for="friedsChoice1"> Yes</label><br />
+
+        <input
+          type="radio"
+          id="friedsChoice2"
+          name="friedsChoice"
+          value="noShare"
+        />
+        <label for="friedsChoice2"> No</label><br />
+
+        <input
+          type="radio"
+          id="friedsChoice3"
+          name="friedsChoice"
+          value="askNicely"
+        />
+        <label for="friedsChoice3"> Only if you ask nicely </label><br />
+
+        <input
+          type="radio"
+          id="friedsChoice4"
+          name="friedsChoice"
+          value="stealYours"
+        />
+        <label for="friedsChoice4"> I would steal yours instead</label><br />
+
+        <!-- Hidden messages -->
+        <div id="friesYesMessage" style="display: none">
+          I like where this is going.😉
+        </div>
+
+        <div id="friesNoWarning" style="display: none">
+          🚨 Are you sure you want to continue this application?
+        </div>
+
+        <div id="askNicely" style="display: none">
+          us: 😙🍟😙
+        </div>
+
+        <div id="stoleMyfries" style="display: none">
+          Like how you stole my heart?? 😳
+        </div>
+      </div>
+<br>
+      <!-- Flirting Style -->
+      <div class="para-sect item ">
+        <p class="heading">Flirting Style</p>
+
+        <input
+          type="radio"
+          id="flirtingStyle1"
+          name="flirtingStyle"
+          value="Aggressive"
+        />
+        <label for="flirtingStyle1"> Aggressive</label><br />
+
+        <input
+          type="radio"
+          id="flirtingStyle2"
+          name="flirtingStyle"
+          value="Subtle"
+        />
+        <label for="flirtingStyle2"> Subtle</label><br />
+
+        <input
+          type="radio"
+          id="flirtingStyle3"
+          name="flirtingStyle"
+          value="Accidental"
+        />
+        <label for="flirtingStyle3"> Accidental</label><br />
+
+        <input
+          type="radio"
+          id="flirtingStyle4"
+          name="flirtingStyle"
+          value="sendMemes"
+        />
+        <label for="flirtingStyle4"> I send memes instead</label><br />
+
+           <!-- Hidden messages -->
+        <div id="aggressive" style="display: none">
+          Our bodies can do the flirting.
+        </div>
+
+        <div id="subtle" style="display: none">
+          I notice👀
+        </div>
+
+        <div id="accidental" style="display: none">
+         Sounds like i'm ending up with a heartbreak.🥲
+          
+        </div>
+
+        <div id="sendMemes" style="display: none">
+          OnlyMemes
+        </div>
+      </div>
+<br>
+      <!-- Red Flag Confession Booth -->
+      <div class="para-sect item ">
+        <p class="heading">Red Flag Confession Booth</p>
+        <p class="sub-heading">What’s your worst red flag?</p>
+        <p class="subtext-heading">Be honest. I will find out.</p>
+
+        <textarea
+          name="redFlag"
+          placeholder="Confess your red flags here..."
+        ></textarea>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
